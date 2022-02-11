@@ -1,0 +1,12 @@
+Running the option for loading or saving game files would be done from the command line with the following parameters:
+Pac_man.exe -load|-save [-silent]
+
+steps file:
+LEFT | RIGHT | UP | DOWN	- Pacman's steps
+0-3 				- Ghost's step ({ UP = 0, LEFT = 1, DOWN = 2, RIGHT =3 })
+(x,y,z) 			- Make fruit (x,y - coordinates z- value)
+f0-f3				- Move fruit ({ UP = 0, LEFT = 1, DOWN = 2, RIGHT = 3 })
+
+result file:
+died: x				- Pacman died 		   x = point in time
+Finished_Screen: x		- Pacman finished a board  x = point in time
